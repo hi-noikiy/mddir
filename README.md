@@ -26,6 +26,8 @@ If you receive the error 'node\r: No such file or directory', the issue is that 
 
 It's possible I merged a pr on Windows which may have caused this issue, but in general it is documented online that	Carriage Return Line Feed issues are unpredictable in npm (I believe possibly in part due to the IDE or code editor used), and I remain hopeful that npm will resolve this or shed some light on it in future.
 
+Refer to this thread for a discussion on npm CRLF issues: https://github.com/npm/npm/issues/13203
+
 # Line endings fix
 
 Get npm bin folder path with:
